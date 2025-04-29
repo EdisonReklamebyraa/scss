@@ -1,0 +1,26 @@
+// always put this class on your regular forms
+.form {
+  & label {
+  }
+  & input {
+    // Generic rules for all input fields here
+
+    // Specify a type of input if you need to customize it
+    &[type=""] {
+    }
+  }
+  & button {
+  }
+  & select {
+  }
+  & fieldset {
+  }
+  & legend {
+  }
+  & datalist {
+  }
+  & output {
+  }
+  & textarea {
+  }
+}
