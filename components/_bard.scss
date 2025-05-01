@@ -1,0 +1,39 @@
+.bard {
+  p + p {
+    margin-top: 1em;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  a {
+    color: var(--link-color);
+    text-decoration: underline;
+  }
+
+  ul,
+  ol {
+    list-style: initial;
+    padding-left: 1.5em;
+    margin-block: 1em;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+  }
+
+  blockquote {
+    padding-left: 1em;
+    border-left: 2px solid #ccc;
+    font-style: italic;
+  }
+
+  & :where(ul ul, ol ul, ul ol, ol ol) {
+    margin-block: 0.5em;
+  }
+}

@@ -1,8 +1,6 @@
-@use "vendors"; // Third party code
-@use "utils"; // SASS mixins, functions, variabels
+@use "vendors"; // Third party libs
+@use "utils"; // SASS mixins, functions, variables
 @use "base"; // Resets, custom properties and base styles
 @use "layout"; // global layout elements
 @use "components"; // reusable components; buttons
 @use "modules"; // Specific module-styles
-
-@layer reset, base, components;
