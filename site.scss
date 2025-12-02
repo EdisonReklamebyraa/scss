@@ -1,6 +1,4 @@
-@use "vendors"; // Third party libs
-@use "utils"; // SASS mixins, functions, variables
-@use "base"; // Resets, custom properties and base styles
-@use "layout"; // global layout elements
-@use "components"; // reusable components; buttons
-@use "modules"; // Specific module-styles
+@use "base"; // Resets, base styles and custom properties
+@use "globals"; // global elements; header, footer, nav
+@use "components"; // Reusable components; buttons etc
+@use "modules"; // Styles per module
